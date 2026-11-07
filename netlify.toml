@@ -1,0 +1,14 @@
+# Netlify deploy settings for Cryptid Casefiles (Vite single-page app)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback: send unknown paths (e.g. /case/case-001/board) to index.html
+# so deep links and page refreshes work. Real files (assets, images) are served first.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
