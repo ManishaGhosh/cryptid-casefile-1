@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "images:compress": "node scripts/compress-images.mjs"
   },
   "dependencies": {
     "@xyflow/react": "^12.3.6",
@@ -37,6 +38,7 @@
     "fast-check": "^3.23.1",
     "jsdom": "^25.0.1",
     "postcss": "^8.4.49",
+    "sharp": "0.34.3",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.6.3",
     "vitest": "^2.1.8"
