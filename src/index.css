@@ -1,0 +1,324 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #0D0D0D;
+    color: #E8E8E0;
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  /* Scrollbar styling for the bureau aesthetic */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1A1A1A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B8960C;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+
+/*
+ * TYPE HIERARCHY — when to use each (min informational size is 11px):
+ *   .type-display  page titles (one per page)           serif ~2.75rem
+ *   .type-title    section / card titles                serif 1.5rem
+ *   .type-heading  sub-headings, panel titles           serif 1.125rem
+ *   .type-label    classification / reference labels   mono 11px caps, wide tracking
+ *   .type-meta     IDs, timestamps, coordinates         mono 12px
+ *   .type-body     paragraphs and evidence text         sans 15px
+ *   .type-body-sm  secondary copy, captions             sans 14px
+ * Colours are NOT baked in except .type-label (off-white/60 minimum); add text-* utilities.
+ */
+@layer components {
+  .type-display { @apply font-serif text-step-display font-semibold break-words; }
+  /* Page titles step down on phones so long case titles wrap instead of dominating the screen. */
+  @media (max-width: 639.98px) {
+    .type-display { font-size: 2rem; }
+  }
+  .type-title { @apply font-serif text-step-title font-semibold; }
+  .type-heading { @apply font-serif text-step-heading font-semibold; }
+  .type-label { @apply font-mono text-step-label uppercase text-off-white/60; }
+  .type-meta { @apply font-mono text-step-meta; }
+  .type-body { @apply font-sans text-step-body; }
+  .type-body-sm { @apply font-sans text-step-body-sm; }
+
+  /*
+   * ATMOSPHERE — app background. Static only (no animated noise).
+   * Layers: one warm lamp pool top-left (gold #D4AF37 at 5%), edge vignette, and a fixed
+   * faint scan-line layer (<= 3%, pointer-events: none) on ::after.
+   */
+  .atmosphere {
+    position: relative;
+    background-color: #0D0D0D; /* bureau-black */
+    background-image:
+      radial-gradient(ellipse 60% 50% at 12% 0%, rgba(212, 175, 55, 0.05), transparent 70%),
+      radial-gradient(ellipse 120% 100% at 50% 50%, transparent 60%, rgba(0, 0, 0, 0.45) 100%);
+    background-attachment: fixed;
+  }
+  .atmosphere::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 3px,
+      rgba(232, 232, 224, 0.025) 3px, /* off-white */
+      rgba(232, 232, 224, 0.025) 4px
+    );
+  }
+
+  /* Parchment surface: fibre noise (SVG) + faint edge-darkening vignette. Static. */
+  .texture-paper {
+    background-image:
+      radial-gradient(ellipse at center, transparent 62%, rgba(26, 26, 26, 0.07) 100%), /* near-black */
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.04 0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)' opacity='0.05'/%3E%3C/svg%3E");
+    background-size: 100% 100%, 300px 300px;
+  }
+
+  /* Inked stamp: uneven coverage via an SVG-noise mask. */
+  .stamp-ink {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='2' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 2.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='2' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 2.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+    -webkit-mask-size: 120px 120px;
+    mask-size: 120px 120px;
+    opacity: 0.85;
+  }
+
+  /* ScanOverlay line: 1px gold-dark core + soft 8px falloff at <= 25% opacity. */
+  .scan-line {
+    height: 1px;
+    background-color: rgba(184, 150, 12, 0.25); /* gold-dark */
+    box-shadow: 0 0 8px rgba(184, 150, 12, 0.25);
+  }
+
+  /*
+   * SEALED BAND — the single "classified contents" treatment (evidence slots, Archive cards).
+   * A dark inset strip with a fine 45deg hatch texture at 6% opacity (off-white #E8E8E0).
+   * Static; label text is added by the consumer.
+   */
+  .sealed-band {
+    @apply rounded-sm border border-gold-dark/30 bg-bureau-black/60;
+    background-image: repeating-linear-gradient(
+      45deg,
+      rgba(232, 232, 224, 0.06) 0, /* off-white */
+      rgba(232, 232, 224, 0.06) 1px,
+      transparent 1px,
+      transparent 6px
+    );
+  }
+
+  /* StatusLight flicker: uneven dips, 4.7s cycle, one soft dip pair only. Never strobes. */
+  @keyframes status-flicker {
+    0%, 38%, 44%, 100% { opacity: 1; }
+    40% { opacity: 0.55; }
+    80% { opacity: 1; }
+    83% { opacity: 0.7; }
+    88% { opacity: 1; }
+  }
+  .status-flicker {
+    animation: status-flicker 4.7s ease-in-out infinite;
+  }
+
+  /*
+   * FOCUS RINGS — one consistent keyboard focus treatment.
+   *   .focus-ring        on dark surfaces (gold ring)
+   *   .focus-ring-paper  on parchment (forest ring; gold has too little contrast on paper)
+   */
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-gold;
+  }
+  .focus-ring-paper {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-forest-dark;
+  }
+
+  /*
+   * SPECIMEN PLATE — framed, CSS-only measurement plate for Archive cards.
+   * Layers: target ring + centre crosshair (gold-dark #B8960C at 25-30%) + ruler ticks on the
+   * left and bottom edges, over a dark inset with an inner shadow. No imagery.
+   */
+  .plate {
+    background-color: #0d0d0d; /* bureau-black */
+    background-image:
+      radial-gradient(circle at center, transparent 31px, rgba(184, 150, 12, 0.25) 31px, rgba(184, 150, 12, 0.25) 32px, transparent 32px),
+      linear-gradient(to right, transparent calc(50% - 0.5px), rgba(184, 150, 12, 0.28) calc(50% - 0.5px), rgba(184, 150, 12, 0.28) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+      linear-gradient(to bottom, transparent calc(50% - 0.5px), rgba(184, 150, 12, 0.28) calc(50% - 0.5px), rgba(184, 150, 12, 0.28) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+      repeating-linear-gradient(to right, rgba(184, 150, 12, 0.4) 0, rgba(184, 150, 12, 0.4) 1px, transparent 1px, transparent 12px),
+      repeating-linear-gradient(to bottom, rgba(184, 150, 12, 0.4) 0, rgba(184, 150, 12, 0.4) 1px, transparent 1px, transparent 12px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 6px, 6px 100%;
+    background-position: 0 0, 0 0, 0 0, 0 100%, 0 0;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 24px rgba(0, 0, 0, 0.7);
+  }
+
+  /*
+   * INVESTIGATION BOARD — aged blueprint / cork-board surface.
+   * The wrapper paints a dark base with a vignette *beneath* the React Flow canvas (which is
+   * transparent), so the vignette darkens the grid but never covers nodes or controls.
+   */
+  .investigation-board {
+    position: relative;
+    background-color: #0d0d0d; /* bureau-black */
+  }
+  .investigation-board::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 50%, rgba(0, 0, 0, 0.6) 100%);
+  }
+  .investigation-board .react-flow {
+    position: relative;
+    background: transparent;
+    --xy-controls-button-background-color: theme('colors.bureau-dark');
+    --xy-controls-button-background-color-hover: theme('colors.bureau-black');
+    --xy-controls-button-color: theme('colors.off-white');
+    --xy-controls-button-color-hover: theme('colors.gold-light');
+    --xy-controls-button-border-color: rgba(184, 150, 12, 0.25); /* gold-dark */
+    --xy-background-color: transparent;
+  }
+  .investigation-board .react-flow__controls {
+    @apply rounded-sm border border-gold-dark/40 shadow-none;
+  }
+  .investigation-board .react-flow__controls-button {
+    @apply bg-bureau-dark text-off-white border-gold-dark/25 focus-ring;
+  }
+  .investigation-board .react-flow__controls-button:hover {
+    @apply bg-bureau-black text-gold-light;
+  }
+  .investigation-board .react-flow__controls-button svg {
+    fill: currentColor;
+  }
+  /* Touch: enlarge the zoom / fit / lock buttons from 26px to a comfortable 36px target. */
+  @media (pointer: coarse) {
+    .investigation-board .react-flow__controls-button {
+      width: 36px;
+      height: 36px;
+    }
+    /* Connection pins: bigger grab area for a finger (the inline size classes use !important). */
+    .investigation-board .react-flow__handle {
+      width: 20px !important;
+      height: 20px !important;
+    }
+  }
+  .investigation-board .react-flow__minimap {
+    @apply rounded-sm border border-gold-dark/40 bg-bureau-dark;
+  }
+
+  /*
+   * LOADING — calm retrieval treatment.
+   * .typewriter-dots appends an ellipsis that types in with stepped timing;
+   * .loading-scan slides a thin gold-dark bar along a track. Both are static under reduced motion.
+   */
+  @keyframes type-dots {
+    from { width: 0; }
+    to { width: 3ch; }
+  }
+  .typewriter-dots::after {
+    content: '...';
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    white-space: nowrap;
+    width: 3ch;
+    animation: type-dots 1.6s steps(4, end) infinite;
+  }
+  @keyframes loading-scan {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(350%); }
+  }
+  .loading-scan {
+    animation: loading-scan 2s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  /*
+   * Viewport-height helpers. Each declares a 100vh fallback, then upgrades to 100dvh so mobile
+   * browser chrome (address bar) does not cut content off.
+   */
+  .min-h-app {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+  /* Investigation board page: viewport minus the 4rem fixed header. */
+  .h-app-board {
+    height: calc(100vh - 4rem);
+    height: calc(100dvh - 4rem);
+  }
+  /* Board canvas when the board page is stacked (below xl). */
+  .h-board-canvas {
+    height: 60vh;
+    height: 60dvh;
+  }
+
+  /*
+   * Touch targets. Applies a 40px minimum height on narrow viewports (tablet and below) and on
+   * coarse pointers (touch). The element must be flex / inline-flex for min-height to take effect.
+   * `.touch-target-icon` is the square variant for icon-only buttons.
+   */
+  @media (max-width: 1023.98px), (pointer: coarse) {
+    .touch-target {
+      min-height: 2.5rem;
+    }
+    .touch-target-icon {
+      min-height: 2.5rem;
+      min-width: 2.5rem;
+    }
+  }
+
+  /* Paper grain (subtle, 4% noise) */
+  .texture-grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+  }
+
+  /* Scan-line overlay effect */
+  .texture-scanline::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px
+    );
+    pointer-events: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-flicker,
+  .typewriter-dots::after,
+  .loading-scan {
+    animation: none;
+  }
+  .loading-scan {
+    transform: translateX(100%);
+  }
+}

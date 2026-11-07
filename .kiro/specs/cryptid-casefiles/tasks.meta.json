@@ -1,0 +1,826 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialise Vite project with React + TypeScript template and install all dependencies": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889115871
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889140012
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890466744
+      }
+    ],
+    "1.2 Configure Tailwind CSS with the approved design-system colour palette and typography": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889116281
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890473823
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890765766
+      }
+    ],
+    "1.3 Configure path aliases, Vitest, and shared utility files": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889116502
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890474125
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890766165
+      }
+    ],
+    "2.1 Define all TypeScript route types and create the React Router configuration with loaders": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889116754
+      },
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890779265
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032807193
+      }
+    ],
+    "2.2 Implement BureauHeader with navigation links and breadcrumb trail": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889116909
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032816654
+      }
+    ],
+    "2.3 Implement root Layout, ErrorBoundary, and page skeleton shells": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117063
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033183181
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033321111
+      }
+    ],
+    "3.1 Define all TypeScript interfaces and union types": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117209
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032807325
+      }
+    ],
+    "3.2 Write the three Case seed records with full narrative content": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117355
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032814672
+      }
+    ],
+    "3.3 Write all twelve EvidenceItem seed records with full content": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117571
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032815335
+      }
+    ],
+    "3.4 Write all five Cryptid seed records with full content": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117821
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032815868
+      }
+    ],
+    "4.1 Implement the five Zustand store slices and compose the store": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889117975
+      },
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032817246
+      }
+    ],
+    "4.2 Implement the HQ page with case grid and investigator summary": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889118115
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033331118
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033503220
+      }
+    ],
+    "4.3 Implement the Case Detail page with incident report and witness statements": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889118269
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033331641
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033504031
+      }
+    ],
+    "4.4 Implement the evidence slot grid with locked/collected states and click-to-collect": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889118423
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033739123
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033992454
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034709235
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034847577
+      }
+    ],
+    "4.5 Implement the evidence detail panel with observation note input": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889118588
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033740004
+      },
+      {
+        "executionId": "a012609a-832d-41f3-9e78-48a48f957c58",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034620501
+      }
+    ],
+    "5.1 Implement the `useBoardSync` hook and FlowCanvas with node construction": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889118896
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035004510
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035141550
+      }
+    ],
+    "5.2 Implement the custom EvidenceNode component": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889119305
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034873402
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035002302
+      }
+    ],
+    "5.3 Implement edge creation with self-loop and duplicate rejection, edge deletion, and edge labels": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889119652
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035156269
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035340872
+      }
+    ],
+    "5.4 Implement the investigation board page, minimap, reactive node addition, and board guard": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889119979
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035156550
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035341630
+      }
+    ],
+    "6.1 Implement the `scoreCalculator` service": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889120353
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035363668
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035479588
+      }
+    ],
+    "6.2 Implement the pure `identificationEngine` service": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889120682
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035480249
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035667902
+      }
+    ],
+    "6.3 Implement the HypothesisPanel, CryptidSelector, and Submit button": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889121006
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035678169
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035902220
+      }
+    ],
+    "6.4 Implement the IdentificationResultOverlay with all four outcome states": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889121351
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035677556
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035902121
+      }
+    ],
+    "7.1 Implement the `reportBuilder` service and File Report action": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889121723
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035915494
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036441437
+      }
+    ],
+    "7.2 Implement the Report page and report document component": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889122056
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036452124
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036638464
+      }
+    ],
+    "7.3 Implement the Cryptid Archive page with locked/unlocked entries and discovery counter": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889122706
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036453266
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036638547
+      }
+    ],
+    "8.1 Implement the persistenceService with schema version check and fallback": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889123082
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036656423
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036820578
+      }
+    ],
+    "8.2 Implement the persistence middleware with 500ms debounced writes": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889123423
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036821385
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037019281
+      }
+    ],
+    "8.3 Wire store hydration in App.tsx and implement the `useHydration` hook": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889123772
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037035453
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037257703
+      }
+    ],
+    "8.4 Implement the Reset All Progress modal and confirm the reset flow": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889124107
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037035762
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037257850
+      }
+    ],
+    "9.1 Implement Framer Motion page transitions and evidence reveal animation": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889124465
+      },
+      {
+        "executionId": "6d43ebbf-94cd-45f2-a59c-5052a9990dd4",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038312641
+      },
+      {
+        "executionId": "6d43ebbf-94cd-45f2-a59c-5052a9990dd4",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038761050
+      }
+    ],
+    "9.2 Implement the identification result reveal and cryptid unlock animation": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889124786
+      },
+      {
+        "executionId": "6d43ebbf-94cd-45f2-a59c-5052a9990dd4",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038761865
+      },
+      {
+        "executionId": "6d43ebbf-94cd-45f2-a59c-5052a9990dd4",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794039201350
+      }
+    ],
+    "9.3 Apply full bureau dossier styling across all pages and components": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889125109
+      },
+      {
+        "executionId": "6d43ebbf-94cd-45f2-a59c-5052a9990dd4",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794039201722
+      },
+      {
+        "executionId": "752dc549-65e0-4c12-9d15-c44954dcca68",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794046637649
+      },
+      {
+        "executionId": "752dc549-65e0-4c12-9d15-c44954dcca68",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794047270057
+      }
+    ],
+    "9.4 Verify responsive layout at 1280px, 1024px, and 768px viewports": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889125433
+      },
+      {
+        "executionId": "fbe72222-7978-4268-87fb-6cffc154acc0",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794049327285
+      },
+      {
+        "executionId": "fbe72222-7978-4268-87fb-6cffc154acc0",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794054137637
+      }
+    ],
+    "10.1 Write component tests for EvidenceSlot, HypothesisPanel, and FlowCanvas": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889125773
+      },
+      {
+        "executionId": "74d5651a-b79e-4ca7-a86f-5df10933aae6",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794056265709
+      },
+      {
+        "executionId": "74d5651a-b79e-4ca7-a86f-5df10933aae6",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794056627445
+      }
+    ],
+    "10.3 End-to-end play-through and bug fixes": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889126097
+      },
+      {
+        "executionId": "74d5651a-b79e-4ca7-a86f-5df10933aae6",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794056640471
+      },
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058389041
+      }
+    ],
+    "10.4 Final build verification and console clean-up": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793889126514
+      },
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058389424
+      },
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058785807
+      }
+    ],
+    "1. Scaffold the Vite + React + TypeScript project and install all dependencies": [
+      {
+        "executionId": "bada4558-9d52-4a39-85a9-eb8265ca8487",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1793890766309
+      }
+    ],
+    "3. Define all TypeScript types and write all static seed data": [
+      {
+        "executionId": "c3577fe0-6e9f-4700-8ca4-993356e102bf",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794032816131
+      }
+    ],
+    "2. Implement the application shell, routing, and page skeletons": [
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033321308
+      }
+    ],
+    "3.5 Write seed data structural validation tests": [
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033562598
+      },
+      {
+        "executionId": "2c17a58e-35ac-4b75-a258-2d0c2eb0d7e2",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794033729973
+      }
+    ],
+    "4. Implement the Zustand store, HQ dashboard, Case Detail view, and evidence collection": [
+      {
+        "executionId": "a012609a-832d-41f3-9e78-48a48f957c58",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034620716
+      }
+    ],
+    "4.6 Write unit tests for evidence slice actions": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794034873520
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035003532
+      }
+    ],
+    "5.5 Write unit tests for FlowCanvas edge logic and board slice": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035363879
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035478786
+      }
+    ],
+    "5. Implement the React Flow investigation board with nodes, edges, and persistence": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035478908
+      }
+    ],
+    "6.5 Write unit tests for the identification engine and score calculator": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035915687
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036442726
+      }
+    ],
+    "6.6 Write property-based tests for identification engine and score calculator": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794035916839
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036441870
+      }
+    ],
+    "6. Implement the identification engine, hypothesis panel UI, and all result states": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794036441996
+      }
+    ],
+    "8.5 Write unit tests for the persistence service": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037273988
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038190979
+      }
+    ],
+    "8.6 Write property-based tests for persistence": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794037274198
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038190896
+      }
+    ],
+    "8. Implement full LocalStorage persistence, store hydration, and the reset flow": [
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038191109
+      },
+      {
+        "executionId": "552f556b-6687-4a7f-aa39-f5aabc24a853",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794038191216
+      }
+    ],
+    "9. Apply full visual polish: Framer Motion animations, bureau dossier aesthetic, and responsive layout": [
+      {
+        "executionId": "fbe72222-7978-4268-87fb-6cffc154acc0",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794054137884
+      }
+    ],
+    "11.1 Implement image asset manifest, BureauImage with graceful fallback, image slots, and the image brief": [
+      {
+        "executionId": "83ea5033-7b9e-43b3-98cc-15967c2fd43a",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794054585772
+      },
+      {
+        "executionId": "83ea5033-7b9e-43b3-98cc-15967c2fd43a",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794054587582
+      },
+      {
+        "executionId": "83ea5033-7b9e-43b3-98cc-15967c2fd43a",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794055328878
+      }
+    ],
+    "11.2 Implement the first-run Orientation Briefing with replay from the sidebar": [
+      {
+        "executionId": "83ea5033-7b9e-43b3-98cc-15967c2fd43a",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794054585952
+      },
+      {
+        "executionId": "83ea5033-7b9e-43b3-98cc-15967c2fd43a",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794055329738
+      }
+    ],
+    "10.2 Write property-based tests for store slices": [
+      {
+        "executionId": "74d5651a-b79e-4ca7-a86f-5df10933aae6",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794056640325
+      },
+      {
+        "executionId": "74d5651a-b79e-4ca7-a86f-5df10933aae6",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058071998
+      }
+    ],
+    "10. Complete all tests, fix end-to-end bugs, and verify the app is demo-ready": [
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058785928
+      }
+    ],
+    "7. Implement report filing, the Report page, and the Cryptid Archive": [
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058807071
+      }
+    ],
+    "11. Add image asset system and first-run orientation briefing": [
+      {
+        "executionId": "32e54628-01c3-4904-be59-3b6525e884df",
+        "chatSessionId": "sess_904d5e3f-c751-44ac-afef-7b02a1ccc167",
+        "timestamp": 1794058807951
+      }
+    ]
+  }
+}

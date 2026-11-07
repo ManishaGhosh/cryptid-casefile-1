@@ -1,0 +1,88 @@
+import type { EvidenceItem } from '@/types/domain'
+
+export const EVIDENCE: EvidenceItem[] = [
+  {
+    id: 'EV-001',
+    caseId: 'case-001',
+    name: 'Broken Branches',
+    category: 'Physical Trace',
+    description: `A series of limb fractures documented along a half-mile stretch of trail in Harrow Pines, all occurring at a consistent height of approximately twelve feet. No storm or high-wind event was recorded in the 72 hours prior. The breaks show compression fracture patterns inconsistent with wildlife or human activity.`,
+  },
+  {
+    id: 'EV-002',
+    caseId: 'case-001',
+    name: 'Thermal Anomaly',
+    category: 'Sensor Data',
+    description: `A thermal image retrieved from Ranger Alcott's wildlife camera trap, timestamped 02:17 on October 15. The image shows a bipedal heat signature standing at the forest boundary. The estimated height of the figure is nine feet. The thermal profile does not match any known local wildlife; the heat signature is diffuse rather than concentrated, suggesting an unusual metabolic or biological structure.`,
+  },
+  {
+    id: 'EV-003',
+    caseId: 'case-001',
+    name: 'Missing Deer',
+    category: 'Biological',
+    description: `Tracking data and direct observation confirm that the entire deer population within a two-mile radius of the sighting location has vacated the area. No predator activity, disease event, or food scarcity has been identified as a cause. The vacated radius corresponds precisely to the area around the camera trap sighting location.`,
+  },
+  {
+    id: 'EV-004',
+    caseId: 'case-001',
+    name: 'Resin Markings',
+    category: 'Physical Trace',
+    description: `Field investigators documented unusual resin secretions on the bark of twelve trees in the immediate sighting area. The secretions form a repeating spiral pattern and appear fresh. Laboratory analysis confirms the resin does not match any tree species native to the Pacific Northwest. The markings appear to radiate outward from a central point approximately 40 metres into the treeline.`,
+  },
+  {
+    id: 'EV-005',
+    caseId: 'case-002',
+    name: 'Bioluminescent Residue',
+    category: 'Biological',
+    description: `Samples of glowing organic matter collected from the surface of Voss Hollow Reservoir. The material emits a consistent blue-green light with a pulse interval of approximately 4 seconds. Preliminary analysis indicates a complex organic compound not matching any known algae, bacteria, or bioluminescent marine organism. The light emission continues for at least 72 hours after collection.`,
+  },
+  {
+    id: 'EV-006',
+    caseId: 'case-002',
+    name: 'Sonar Anomaly',
+    category: 'Sensor Data',
+    description: `Sonar sweep data from Dr. Ferris's survey equipment showing a large, coherent moving mass at 25 metres depth. The mass has an approximate diameter of 40 metres and moves in coordinated patterns inconsistent with a school of fish or debris field. The mass changes direction in response to sonar pulses, suggesting either mechanoreceptive awareness or a distributed nervous system capable of coordinated response.`,
+  },
+  {
+    id: 'EV-007',
+    caseId: 'case-002',
+    name: 'Temperature Record',
+    category: 'Environmental',
+    description: `A continuous data log from the reservoir's automated monitoring buoy showing a drop of 18°F over a 4-minute window at 07:43 on October 19. No meteorological event, inflow anomaly, or mechanical malfunction accounts for the rate or magnitude of the drop. The temperature returns to baseline over approximately 90 minutes, suggesting the cause is transient rather than structural.`,
+  },
+  {
+    id: 'EV-008',
+    caseId: 'case-002',
+    name: 'Submerged Structure',
+    category: 'Archaeological',
+    description: `Photographic and sonar documentation of a partial stone formation on the lakebed at 28 metres depth, beneath and adjacent to the moving mass's observed position. The structure consists of arranged stone columns in a configuration consistent with intentional construction. No geological process produces this pattern, and no archaeological survey of the area has ever recorded the formation.`,
+  },
+  {
+    id: 'EV-009',
+    caseId: 'case-003',
+    name: 'Shadow Absence',
+    category: 'Photographic',
+    description: `A portfolio of 200 photographs taken by M. Osei documenting the complete absence of shadows cast by physical objects inside the property. Control photographs taken outside the property on the same day show normal shadow behaviour. The phenomenon is consistent across all rooms and all light sources tested, including natural daylight, incandescent, fluorescent, and directed torchlight.`,
+  },
+  {
+    id: 'EV-010',
+    caseId: 'case-003',
+    name: 'Electromagnetic Disturbance',
+    category: 'Sensor Data',
+    description: `EMF meter readings taken during M. Osei's visit show maximum-scale readings in two specific rooms: the upstairs back bedroom and the ground-floor study. Readings elsewhere in the house are within normal range. The disturbance zones are stationary and do not correlate with known electrical wiring paths or appliances. Bureau instruments returned equivalent readings on a follow-up visit two weeks later, confirming the disturbance is persistent rather than transient.`,
+  },
+  {
+    id: 'EV-011',
+    caseId: 'case-003',
+    name: 'Cold Geometry',
+    category: 'Environmental',
+    description: `Thermographic imaging of the interior reveals four distinct cold zones with perfectly geometric boundaries — two rectangles and two circles — with temperature differentials of up to 12°F relative to surrounding air. The zones do not correspond to walls, windows, vents, or any structural feature of the building. The geometric precision of the boundaries is inconsistent with any known thermal phenomenon.`,
+  },
+  {
+    id: 'EV-012',
+    caseId: 'case-003',
+    name: 'Mirror Reflection',
+    category: 'Photographic',
+    description: `Documentation of anomalous mirror behaviour throughout the property. Multiple mirrors reflect the room with subtle but consistent differences: furniture positions are slightly altered, a door appears open when it is closed, and in one instance a window is reflected as bricked up when it is not. The discrepancies are consistent across multiple observers and multiple photographic sessions, ruling out individual perception error.`,
+  },
+]
