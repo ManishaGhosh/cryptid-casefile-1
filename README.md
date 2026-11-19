@@ -1,6 +1,6 @@
 # Cryptid Casefiles
 
-A Kiroween hackathon entry for the **Costume Contest** category. Cryptid Casefiles is a classified paranormal investigation game: you work inside a government bureau, collect field evidence, connect clues on a cork-style investigation board, and identify the creature behind each case. Everything runs in the browser. There is no backend, no account and no paid API.
+Cryptid Casefiles is a classified paranormal investigation game: you work inside a government bureau, collect field evidence, connect clues on a cork-style investigation board, and identify the creature behind each case. Everything runs in the browser. There is no backend, no account and no paid API.
 
 ## Run locally
 
